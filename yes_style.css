@@ -10,6 +10,36 @@ body {
     font-family: "Nunito", sans-serif;
 }
 
+.heart-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: 9999;
+    overflow: hidden;
+}
+
+.heart {
+    position: absolute;
+    bottom: -20px;
+    color: #ff4d6d;
+    font-size: 24px;
+    animation: floatUp 6s linear forwards;
+    opacity: 0.9;
+}
+@keyframes floatUp {
+    0% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-120vh) scale(1.6);
+        opacity: 0;
+    }
+}
+
 .container {
     text-align: center;
 }
