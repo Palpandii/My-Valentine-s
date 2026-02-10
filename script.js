@@ -6,6 +6,7 @@ const messages = [
     "just think about it!🙄",
     "If you say no, I will be really sad...",
     " I will be very very sad...",
+    "Ada venna mavalae Yes kudu dii..",
     "Okay fine😫, I Will stop asking...",
     "Just kidding, say YES please!"
     
